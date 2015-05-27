@@ -7,6 +7,6 @@ var Router = Ember.Router.extend({
 
 export default Router.map(function() {
   this.resource('about', {path: '/'});
-  this.resource('projects');
-  this.resource('talks');
+  this.resource('accelerated-classes');
+  this.resource('weekend-classes');
 });

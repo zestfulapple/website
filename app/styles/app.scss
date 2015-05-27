@@ -14,7 +14,7 @@ html, body {
   font-family: 'Source Sans Pro', 'Verdana';
   font-weight: 300;
   color: $dark-gray;
-
+  
   strong {
     font-weight: normal;
   }
@@ -34,7 +34,7 @@ main {
 }
 
 header {
-  border-bottom: 1px solid #aa0000;
+  border-bottom: 1px solid #009900;
   text-align: center;
   overflow: hidden;
 }
@@ -50,7 +50,7 @@ header {
   margin: 16px 0;
   font-size: 24px;
   font-weight: normal;
-  color: $red;
+  color: $main_color;
 }
 
 ul.navigation {
@@ -60,7 +60,6 @@ ul.navigation {
 
   li {
     float: left;
-    width: 100px;
     padding: 10px;
 
     a {
@@ -77,13 +76,21 @@ ul.navigation {
 
       /* Box shadow is kind of an ugly way to do the bottom borders */
       &.active {
-        -webkit-box-shadow:inset 0px -4px $red;
-        box-shadow:inset 0px -4px $red;
+        -webkit-box-shadow:inset 0px -4px $main_color;
+        box-shadow:inset 0px -4px $main_color;
       }
     }
   }
 }
 
 img.project {
-  float: left;
+  display: block;
+  width: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 20px;
+}
+
+div.pictures {
+  margin-top: 40px;
 }

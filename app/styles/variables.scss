@@ -1,8 +1,8 @@
 /* Colors */
 
-$red:               #A00;
-$light-red:         #A44;
-$highlight-red:     #E83A3A;
+$main_color:        #009900;
+$light_color:       #33CC33;
+$highlight_color:   #E83A3A;
 $very-dark-gray:    #333;
 $dark-gray:         #555;
 $gray:              #999;
@@ -12,7 +12,7 @@ $white:             #FFF;
 
 /* Layout */
 
-$content-width:       600px;
+$content-width:       1000px;
 $header-tabs-height:  40px;
 
-$link-color: $red;
+$link-color: $main_color;
